@@ -1,0 +1,3 @@
+import re
+expr = "z = 2 -a*25"
+print (re.findall("\s*(\d+|\w+|.)", expr))
